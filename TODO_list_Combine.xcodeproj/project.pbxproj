@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85A0E9B12B7159C1006AEB1F /* TODO_list_CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A0E9B02B7159C1006AEB1F /* TODO_list_CombineTests.swift */; };
 		85A466EB2B45DD6B00021C4A /* TODO_list_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A466EA2B45DD6B00021C4A /* TODO_list_CombineApp.swift */; };
 		85A466ED2B45DD6B00021C4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A466EC2B45DD6B00021C4A /* ContentView.swift */; };
 		85A466EF2B45DD6D00021C4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A466EE2B45DD6D00021C4A /* Assets.xcassets */; };
 		85A466F22B45DD6D00021C4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A466F12B45DD6D00021C4A /* Preview Assets.xcassets */; };
+		85A466F92B45DDA000021C4A /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A466F82B45DDA000021C4A /* TaskListViewModel.swift */; };
+		85A466FB2B45DDB300021C4A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A466FA2B45DDB300021C4A /* Task.swift */; };
+		85A466FD2B45DDE700021C4A /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A466FC2B45DDE700021C4A /* AddTaskView.swift */; };
+		85A466FF2B46EAA000021C4A /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A466FE2B46EAA000021C4A /* TaskDetailView.swift */; };
+		85A467012B472B6700021C4A /* Subtask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A467002B472B6700021C4A /* Subtask.swift */; };
+		85A467052B472C1500021C4A /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A467042B472C1500021C4A /* TodoListView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		85A0E9B22B7159C1006AEB1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85A466DF2B45DD6B00021C4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A466E62B45DD6B00021C4A;
+			remoteInfo = TODO_list_Combine;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		85A0E9AE2B7159C1006AEB1F /* TODO_list_CombineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TODO_list_CombineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A0E9B02B7159C1006AEB1F /* TODO_list_CombineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO_list_CombineTests.swift; sourceTree = "<group>"; };
 		85A466E72B45DD6B00021C4A /* TODO_list_Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TODO_list_Combine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A466EA2B45DD6B00021C4A /* TODO_list_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO_list_CombineApp.swift; sourceTree = "<group>"; };
 		85A466EC2B45DD6B00021C4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85A466EE2B45DD6D00021C4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85A466F12B45DD6D00021C4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85A466F82B45DDA000021C4A /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		85A466FA2B45DDB300021C4A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		85A466FC2B45DDE700021C4A /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		85A466FE2B46EAA000021C4A /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		85A467002B472B6700021C4A /* Subtask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtask.swift; sourceTree = "<group>"; };
+		85A467042B472C1500021C4A /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		85A0E9AB2B7159C1006AEB1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85A466E42B45DD6B00021C4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +64,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85A0E9AF2B7159C1006AEB1F /* TODO_list_CombineTests */ = {
+			isa = PBXGroup;
+			children = (
+				85A0E9B02B7159C1006AEB1F /* TODO_list_CombineTests.swift */,
+			);
+			path = TODO_list_CombineTests;
+			sourceTree = "<group>";
+		};
 		85A466DE2B45DD6B00021C4A = {
 			isa = PBXGroup;
 			children = (
 				85A466E92B45DD6B00021C4A /* TODO_list_Combine */,
+				85A0E9AF2B7159C1006AEB1F /* TODO_list_CombineTests */,
 				85A466E82B45DD6B00021C4A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				85A466E72B45DD6B00021C4A /* TODO_list_Combine.app */,
+				85A0E9AE2B7159C1006AEB1F /* TODO_list_CombineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +95,8 @@
 			children = (
 				85A466EA2B45DD6B00021C4A /* TODO_list_CombineApp.swift */,
 				85A466EC2B45DD6B00021C4A /* ContentView.swift */,
+				85A467032B472BEA00021C4A /* Views */,
+				85A467022B472BE500021C4A /* Models */,
 				85A466EE2B45DD6D00021C4A /* Assets.xcassets */,
 				85A466F02B45DD6D00021C4A /* Preview Content */,
 			);
@@ -67,9 +111,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		85A467022B472BE500021C4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				85A466F82B45DDA000021C4A /* TaskListViewModel.swift */,
+				85A466FA2B45DDB300021C4A /* Task.swift */,
+				85A467002B472B6700021C4A /* Subtask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		85A467032B472BEA00021C4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85A466FC2B45DDE700021C4A /* AddTaskView.swift */,
+				85A466FE2B46EAA000021C4A /* TaskDetailView.swift */,
+				85A467042B472C1500021C4A /* TodoListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		85A0E9AD2B7159C1006AEB1F /* TODO_list_CombineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A0E9B62B7159C1006AEB1F /* Build configuration list for PBXNativeTarget "TODO_list_CombineTests" */;
+			buildPhases = (
+				85A0E9AA2B7159C1006AEB1F /* Sources */,
+				85A0E9AB2B7159C1006AEB1F /* Frameworks */,
+				85A0E9AC2B7159C1006AEB1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85A0E9B32B7159C1006AEB1F /* PBXTargetDependency */,
+			);
+			name = TODO_list_CombineTests;
+			productName = TODO_list_CombineTests;
+			productReference = 85A0E9AE2B7159C1006AEB1F /* TODO_list_CombineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		85A466E62B45DD6B00021C4A /* TODO_list_Combine */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85A466F52B45DD6D00021C4A /* Build configuration list for PBXNativeTarget "TODO_list_Combine" */;
@@ -97,6 +179,10 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					85A0E9AD2B7159C1006AEB1F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 85A466E62B45DD6B00021C4A;
+					};
 					85A466E62B45DD6B00021C4A = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -116,11 +202,19 @@
 			projectRoot = "";
 			targets = (
 				85A466E62B45DD6B00021C4A /* TODO_list_Combine */,
+				85A0E9AD2B7159C1006AEB1F /* TODO_list_CombineTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		85A0E9AC2B7159C1006AEB1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85A466E52B45DD6B00021C4A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +227,76 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		85A0E9AA2B7159C1006AEB1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85A0E9B12B7159C1006AEB1F /* TODO_list_CombineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85A466E32B45DD6B00021C4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A467052B472C1500021C4A /* TodoListView.swift in Sources */,
+				85A466FB2B45DDB300021C4A /* Task.swift in Sources */,
+				85A466FD2B45DDE700021C4A /* AddTaskView.swift in Sources */,
+				85A466FF2B46EAA000021C4A /* TaskDetailView.swift in Sources */,
 				85A466ED2B45DD6B00021C4A /* ContentView.swift in Sources */,
+				85A467012B472B6700021C4A /* Subtask.swift in Sources */,
 				85A466EB2B45DD6B00021C4A /* TODO_list_CombineApp.swift in Sources */,
+				85A466F92B45DDA000021C4A /* TaskListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		85A0E9B32B7159C1006AEB1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A466E62B45DD6B00021C4A /* TODO_list_Combine */;
+			targetProxy = 85A0E9B22B7159C1006AEB1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		85A0E9B42B7159C1006AEB1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFLMJ46Z7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Makey.TODO-list-CombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TODO_list_Combine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TODO_list_Combine";
+			};
+			name = Debug;
+		};
+		85A0E9B52B7159C1006AEB1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFLMJ46Z7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Makey.TODO-list-CombineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TODO_list_Combine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TODO_list_Combine";
+			};
+			name = Release;
+		};
 		85A466F32B45DD6D00021C4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,6 +477,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		85A0E9B62B7159C1006AEB1F /* Build configuration list for PBXNativeTarget "TODO_list_CombineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A0E9B42B7159C1006AEB1F /* Debug */,
+				85A0E9B52B7159C1006AEB1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		85A466E22B45DD6B00021C4A /* Build configuration list for PBXProject "TODO_list_Combine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
